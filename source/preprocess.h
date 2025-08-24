@@ -15,7 +15,7 @@ namespace fs = filesystem;
 class Preprocess
 {
 public:
-    void create_pixels_txt(vector<string>& folder_name)
+    string create_pixels_txt(vector<string>& folder_name)
     {
         string folderPath = browseFolder("Choose your folder");
         if (!folderPath.empty())
@@ -32,6 +32,7 @@ public:
             cout << endl << endl;
         }
         else cout << "No folder selected or canceled." << endl;
+        return folderPath;
     }
     string browseFolder(const std::string& title = "Select a Dataset")
     {
@@ -44,6 +45,13 @@ public:
             if (SHGetPathFromIDList(pidl, path))
                 return std::string(path);
         return "";
+    }
+    void show(vector<string>& folder_name)
+    {
+        for (int i = 0; i < folder_name.size(); ++i)
+        {
+            cout << folder_name[i] << endl;
+        }
     }
 };
 #endif
