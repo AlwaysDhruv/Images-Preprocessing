@@ -1,4 +1,4 @@
-# Image Preprocessing Tool
+# Image Preprocessing Library
 
 ## Description
 
