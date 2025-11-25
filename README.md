@@ -1,4 +1,4 @@
-# Image Preprocessing Library
+# Image Preprocessing Library or Class
 
 ## Description
 
