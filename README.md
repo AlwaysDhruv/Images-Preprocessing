@@ -1,4 +1,4 @@
-# Image Preprocessing Library or Class
+# Image Preprocessing Library or Class in C++ & Python
 
 ## Description
 
