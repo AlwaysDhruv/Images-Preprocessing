@@ -1,4 +1,4 @@
-# Image Preprocessing Library or Class in C++ & Python
+# Image Preprocessing Library or Class in C++ & Python From Scratch
 
 ## Description
 
